@@ -379,16 +379,19 @@ margin on the iframe, cause it breaks stuff. */
 
 .blog-logo {
     text-decoration: none;
+    height: 60pt;
+    width: 60pt;
+    border-radius:50%
 }
 
 /* Yo-logo. Yolo-go. Upload one in ghost/settings/ */
-.blog-logo img {
+/* .blog-logo img {
     display: block;
     max-height: 100px;
-    width: auto;
+    width: 100px;
     margin: 0 auto;
     line-height: 0;
-}
+} */
 
 /* The details of your blog. Defined in ghost/settings/ */
 .blog-title {
